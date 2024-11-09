@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Image } from 'react-native';
 import { ScanDocument } from 'react-native-scan-document';
-;
 
 export default function App() {
   const [scannedImage, setScannedImage] = useState();
